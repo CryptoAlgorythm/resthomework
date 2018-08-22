@@ -11,8 +11,9 @@ const express = require('express'),
     fs = require('fs')
 
 const app = express()
-const PORT = env.PORT
+const PORT = process.env.PORT
 
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 app.use(morgan('combined'))
 app.use(bodyParser.json())
 

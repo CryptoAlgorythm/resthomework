@@ -20,6 +20,7 @@
     "nodemailer": "^4.6.8",
     "nodemon": "^1.18.3",
     "sequelize": "^4.38.0",
+    "serve-favicon": "^2.5.0",
     "spdy": "^3.4.7"
   },
   "engines": {
