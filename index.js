@@ -36,6 +36,12 @@ app.all('/*', (req, res, next) => {
     }
 })
 
+app.get('/', (req, res) => {
+    res.json({
+        Hello: "Hello World"
+    })
+})
+
 db.sequelize.sync().then(() => {
     http2
         .createServer(options, app)
