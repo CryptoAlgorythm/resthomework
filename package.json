@@ -1,0 +1,28 @@
+{
+  "name": "resthomework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/node-dev .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.9",
+    "morgan": "^1.9.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.3",
+    "sequelize": "^4.38.0",
+    "spdy": "^3.4.7"
+  },
+  "engines": {
+    "node": "10.2.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "resthomework",
+    "description": "Homework for HBC",
+    "respository": "git@github.com:CryptoAlgorythm/resthomework.git",
+    "keywords": [
+        "node",
+        "express",
+        "javascript"
+    ],
+    "image": "heroku/nodejs"
+}
