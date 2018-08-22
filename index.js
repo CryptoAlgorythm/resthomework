@@ -13,9 +13,9 @@ const express = require('express'),
 const app = express()
 const PORT = process.env.PORT
 
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 app.use(morgan('combined'))
 app.use(bodyParser.json())
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 router(app, db);
 
